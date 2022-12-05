@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Script in Head and Body</title>
+</head>
+<body>
+    <p>See the source code.</p>
+</body>    
+</html>
+
+<!-- Explain:
+1) What is shown on the page and in which order?
+2) How does the location of the JavaScript code affect to the result?
+
+-->
