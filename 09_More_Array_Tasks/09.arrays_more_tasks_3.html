@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Array Example</title>
+  </head>
+  <body>
+    <h1>Club Members</h1>
+
+    <form>
+      <label>Name:</label>
+      <input type="text" id="txtName" />
+      <label>Age:</label>
+      <input type="text" id="txtAge" />
+      <input type="button" value="Save" onClick="insertValue()" />
+    </form>
+    <br/ >
+    <div id="divTotalMembers"></div>
+    <br/ >
+    <input type="button" value="Show Minors" onClick="showMinors()" />
+    <input type="button" value="Show Adults" onClick="showAdults()" />
+    <input
+      type="button"
+      value="Show oldest memeber(s)"
+      onClick="showOldestMember()"
+    />
+    <input
+      type="button"
+      value="Show youngest memeber(s)"
+      onClick="showYoungestMember()"
+    />
+    <div id="answer"></div>
+    <script src="09.arrays_more_tasks_3.js"></script>
+  </body>
+</html>
